@@ -42,7 +42,10 @@ weather-map-app/
 ## Kurulum 
 ```bash
 cd weather-map-app/frontend
+# Normal Yükleme:
 npm install
+# Eğer sürüm uyuşmazlığı hatası alırsanız:
+npm install --legacy-peer-deps
 .env dosyasını oluşturun ve API anahtarınızı ekleyin:
 REACT_APP_WEATHER_API_KEY=SİZE AİT ANAHTARI YAZINIZ
 npm start
