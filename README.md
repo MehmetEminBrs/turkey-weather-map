@@ -26,15 +26,6 @@ React + TypeScript + React Simple Maps + OpenWeather API kullanılarak geliştir
 - CSS (Tailwind + custom styling)
 
 ---
-## Kurulum 
-```bash
-cd weather-map-app/frontend
-npm install
-.env dosyasını oluşturun ve API anahtarınızı ekleyin:
-REACT_APP_WEATHER_API_KEY=SİZE AİT ANAHTARI YAZINIZ
-npm start
-```
-
 ## Proje Yapısı :
 
 ```text
@@ -46,6 +37,18 @@ weather-map-app/
 │ └─ package.json
 └─ screenshot/
 ```
+
+
+## Kurulum 
+```bash
+cd weather-map-app/frontend
+npm install
+.env dosyasını oluşturun ve API anahtarınızı ekleyin:
+REACT_APP_WEATHER_API_KEY=SİZE AİT ANAHTARI YAZINIZ
+npm start
+```
+
+
 
 ## API key almak için:
 
