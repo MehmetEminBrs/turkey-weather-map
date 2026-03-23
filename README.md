@@ -53,6 +53,9 @@ npm start
 ## API key almak için:
 
 OpenWeather(https://openweathermap.org/api) sitesine gidin.
+
 Hesap oluşturun veya giriş yapın.
+
 “API keys” bölümünden yeni bir key oluşturun.
+
 Yukarıdaki .env dosyasına bu key’i yapıştırın.
